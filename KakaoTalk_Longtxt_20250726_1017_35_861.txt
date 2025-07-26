@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>김해 열방비전교회</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f7f9fc;
+      color: #333;
+    }
+
+    header {
+      background: #005bac;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #0072ce;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 10px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 10px 15px;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 50px 20px;
+      text-align: center;
+    }
+
+    section h2 {
+      font-size: 2em;
+      margin-bottom: 20px;
+      color: #005bac;
+    }
+
+    iframe {
+      max-width: 100%;
+      border: none;
+    }
+
+    .account-box {
+      background: #e0f0ff;
+      padding: 20px;
+      border-radius: 10px;
+      display: inline-block;
+      margin-top: 20px;
+    }
+
+    footer {
+      background-color: #003366;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    @media (max-width: 600px) {
+      nav a { font-size: 0.9em; margin: 5px; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>김해 열방비전교회</h1>
+    <p>말씀과 성령이 역사하는 교회입니다</p>
+  </header>
+
+  <nav>
+    <a href="#">교회 소개</a>
+    <a href="#worship">예배 안내</a>
+    <a href="#sermon">설교 말씀</a>
+    <a href="#map">오시는 길</a>
+    <a href="#offering">온라인 헌금</a>
+    <a href="#contact">문의하기</a>
+  </nav>
+
+  <section>
+    <h2>주님 안에서 환영합니다!</h2>
+    <p>우리 교회는 하나님의 말씀과 성령의 역사 가운데 열방을 품고 나아갑니다.</p>
+    <p>예배 시간: 주일 오전 11시 / 수요예배 오후 7시 / 금요기도회 오후 9시</p>
+  </section>
+
+  <!-- 🎥 YouTube 설교 영상 -->
+  <section id="sermon">
+    <h2>최근 설교 영상</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/설교영상ID" allowfullscreen></iframe>
+    <p style="margin-top:10px;">* 설교 영상은 매주 업데이트됩니다</p>
+  </section>
+
+  <!-- 🗺 네이버 지도 삽입 -->
+  <section id="map">
+    <h2>오시는 길</h2>
+    <div style="width:100%;max-width:600px;height:400px;margin:0 auto;">
+      <iframe src="https://map.naver.com/p/entry/place/1882783603?c=15.00,0,0,0,dh" width="100%" height="400" frameborder="0" allowfullscreen></iframe>
+      <p style="margin-top:10px;">경남 김해시 해반천로130번길 27, 6층 (열방비전교회)</p>
+    </div>
+  </section>
+
+  <!-- 💳 온라인 헌금 안내 -->
+  <section id="offering">
+    <h2>온라인 헌금 안내</h2>
+    <div class="account-box">
+      <p><strong>은행명:</strong> 국민은행</p>
+      <p><strong>계좌번호:</strong> 123456-78-901234</p>
+      <p><strong>예금주:</strong> 열방비전교회</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 김해 열방비전교회 | 경남 김해시 해반천로130번길 27, 6층 | 010-1234-5678</p>
+  </footer>
+
+</body>
+</html>
